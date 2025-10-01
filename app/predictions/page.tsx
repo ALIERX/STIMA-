@@ -13,14 +13,14 @@ export default function PredictionsPage(){
       <Card title="Mercati attivi">
         <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <div>Submariner > € 13.000 entro 30 giorni?</div>
+            <div>Submariner {'>'} € 13.000 entro 30 giorni?</div>
             <div className="flex gap-2">
               <Button>Buy YES</Button>
               <Button variant="outline">Buy NO</Button>
             </div>
           </div>
           <div className="flex items-center justify-between">
-            <div>Nautilus 5711 > € 105.000 entro 60 giorni?</div>
+            <div>Nautilus 5711 {'>'} € 105.000 entro 60 giorni?</div>
             <div className="flex gap-2">
               <Button>Buy YES</Button>
               <Button variant="outline">Buy NO</Button>
